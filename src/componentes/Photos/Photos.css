@@ -1,0 +1,38 @@
+.loading {
+  border: 4px solid rgb(234, 225, 225);
+  border-top: 4px solid rgb(24, 8, 73);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: 30px auto;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  100% { rotate: 360deg }
+  
+}
+.lista {
+  margin: 100px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  max-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+
+}
+.lista__foto img{
+  border-radius: 20px;
+  height: 300px;
+  width: 300px;
+  flex: 1;
+}
+@media (max-width: 600px) {
+  .lista {
+    margin: 10px;
+    justify-content: center;
+  }
+}

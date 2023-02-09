@@ -1,10 +1,13 @@
 import './App.css';
-import CountPlus from './componentes/Countplus';
+import Fotos from './componentes/Photos';
+import Search from './componentes/Search';
 
 function App() {
   return (
-  //  <Count />
-   <CountPlus />
+    <div className='app'>
+      <Search />
+      <Fotos />
+    </div>
   );
 }
 
