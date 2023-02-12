@@ -3,7 +3,7 @@ import './NoImage.css'
 const NoImage = () => {
   return (
     <div>
-      <p className='error'>Nenhuma imagem encontrada com o termo digitado</p>
+      <p className='error'>Ops, nenhuma imagem encontrada. Por favor digite outra palavra-chave.</p>
     </div>
   )
 }
