@@ -24,7 +24,7 @@ const Search = () => {
           />
       </form>
     
-    <Photos />
+    <Photos inputValue={inputValue}/>
     </div>
   )
 }
