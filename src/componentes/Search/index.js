@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Photos from '../Photos';
+import Photos from '../ApiFlickr';
 import './Search.css'
 
 const Search = () => {
@@ -21,7 +21,7 @@ const Search = () => {
           onChange={handleChange}
           placeholder='Search...'
         
-          />
+        />
       </form>
     
     <Photos inputValue={inputValue}/>
