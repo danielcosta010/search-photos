@@ -12,7 +12,7 @@ const Photos = () => {
   useEffect(() => {
     const fetchData = async () => {
       const response = await axios.get(
-        `https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=${flickrApi}&tags=montain&per_page=25&format=json&nojsoncallback=1`
+        `https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=${flickrApi}&tags=praia&per_page=25&format=json&nojsoncallback=1`
       );
       setImages(response.data.photos.photo);
       setLoading(false);
