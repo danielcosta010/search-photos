@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { format } from 'date-fns';
 import pt from 'date-fns/locale/pt';
+import './Saudation.css'
 
 const Saudation = () => {
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -23,13 +24,15 @@ const Saudation = () => {
     greeting = 'Bom dia!';
   } else if (currentHour >= 12 && currentHour < 18) {
     greeting = 'Boa tarde!';
-  } else {
+  } else if (currentHour >= 18 && currentHour < 24){
     greeting = 'Boa noite!';
+  } else {
+    greeting = 'Boa madrugada!'
   }
 
   return (
-    <div className="saudacao">
-      <h1>{greeting} {formattedDate}</h1>
+    <div>
+      <h2 className='saudacao__titulo'>{greeting} {formattedDate}</h2>
     </div>
   );
 };

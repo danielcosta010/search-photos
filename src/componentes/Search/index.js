@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Photos from '../ApiFlickr';
+import ApiFlickr from '../ApiFlickr';
 import './Search.css'
 
 const Search = () => {
@@ -24,7 +24,7 @@ const Search = () => {
         />
       </form>
     
-    <Photos inputValue={inputValue}/>
+    <ApiFlickr inputValue={inputValue}/>
     </div>
   )
 }
