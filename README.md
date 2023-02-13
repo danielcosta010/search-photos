@@ -1,5 +1,7 @@
 # Projeto que consome a api flickr.
 
+<img src="https://github.com/danielcosta010/search-photos/blob/main/public/img/capa_projeto.png#vitrinedev" style="height: 300px" alt="foto da capa do projeto">
+
 Você pode digitar o termo de busca, para pesquisar dinamicamente por fotos da api.
 Este projeto foi inicializado com [Create React App](https://pt-br.reactjs.org/docs/create-a-new-react-app.html).
 
