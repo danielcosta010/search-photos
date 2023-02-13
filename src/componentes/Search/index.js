@@ -4,12 +4,12 @@ import './Search.css'
 
 const Search = () => {
   const [inputValue, setInputValue] = useState('');
-  
+
   const handleChange = event => {
     setInputValue(event.target.value);
   };
 
- 
+
   return (
     <div>
       <h1 className='titulo'>Search Photos</h1>
@@ -20,15 +20,15 @@ const Search = () => {
           value={inputValue}
           onChange={handleChange}
           placeholder='Search...'
-        
+
         />
       </form>
-    
-    <ApiFlickr inputValue={inputValue}/>
+
+      <ApiFlickr inputValue={inputValue} />
     </div>
   )
 }
-//const DisplayValue = ({ inputValue }) => <div>{inputValue}</div>;
+
 
 
 export default Search

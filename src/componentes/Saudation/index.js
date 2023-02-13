@@ -10,10 +10,10 @@ const Saudation = () => {
     setInterval(() => {
       setCurrentTime(new Date());
     }, 1000);
-   // return () => clearInterval(intervalId);
+    // return () => clearInterval(intervalId);
   });
 
-  const formattedDate = format(currentTime, "dd 'de' MMMM 'de' yyyy, HH:mm:ss", {
+  const formattedDate = format(currentTime, "dd 'de' MMMM 'de' yyyy, hh:mm:ss", {
     locale: pt
   });
 
@@ -24,7 +24,7 @@ const Saudation = () => {
     greeting = 'Bom dia!';
   } else if (currentHour >= 12 && currentHour < 18) {
     greeting = 'Boa tarde!';
-  } else if (currentHour >= 18 && currentHour < 24){
+  } else if (currentHour >= 18 && currentHour < 24) {
     greeting = 'Boa noite!';
   } else {
     greeting = 'Boa madrugada!'
