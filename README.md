@@ -1,5 +1,6 @@
-# Introdução ao Create React App
+# Projeto que consome a api flickr.
 
+Você pode digitar o termo de busca, para pesquisar dinamicamente por fotos da api.
 Este projeto foi inicializado com [Create React App](https://pt-br.reactjs.org/docs/create-a-new-react-app.html).
 
 ## Scripts disponíveis
@@ -30,8 +31,9 @@ Seu aplicativo está pronto para ser implantado!
 
 Consulte a seção sobre [implantação](https://facebook.github.io/create-react-app/docs/deployment) para obter mais informações.
 
-# Getting Started with Create React App
+# Project that consumes the flickr api.
 
+You can enter the search term, to dynamically search for photos from the api.
 This project was bootstrapped with [Create React App](https://pt-br.reactjs.org/docs/create-a-new-react-app.html).
 
 ## Available Scripts
