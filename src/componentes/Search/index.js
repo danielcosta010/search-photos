@@ -9,7 +9,7 @@ const Search = () => {
     setInputValue(event.target.value);
   };
   const prevent = e => {
-    e.preventDefalt()
+    e.preventDefault()
   }
 
   return (
