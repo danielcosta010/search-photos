@@ -8,12 +8,14 @@ const Search = () => {
   const handleChange = event => {
     setInputValue(event.target.value);
   };
-
+  const prevent = e => {
+    e.preventDefalt()
+  }
 
   return (
     <div>
       <h1 className='titulo'>Search Photos</h1>
-      <form>
+      <form onSubmit={prevent}>
         <input
           className='search'
           type="text"
